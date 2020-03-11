@@ -1,0 +1,78 @@
+.articleSection {
+    margin-top: 20px;
+}
+
+.ui.card.article {
+    width: 100%;
+}
+
+.article .image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.articleRow{}
+
+.articleRow .column {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.articleRow .ui.card.article .image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.articleRow .article .content.extra {
+    border-top: none !important;
+    padding-top: 0;
+}
+
+.article .description {
+    max-height: 150px;
+    overflow-y: auto;
+    cursor: all-scroll;
+}
+
+.article .description::-webkit-scrollbar {
+    display: none;
+}
+
+/* Responsive CSS */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .articleSection .ui.grid .row.articleRow .column {
+        width: 50% !important;
+    }
+    .ui.grid>.row.articleRow {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ui.grid>.row.articleRow .column {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .articleSection .ui.grid .row.articleRow .column {
+        width: 50% !important;
+    }
+    .ui.grid>.row.articleRow {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ui.grid>.row.articleRow .column {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .articleSection .ui.grid .row.articleRow .column {
+        width: 100% !important;
+    }
+
+    .article .image {
+        height: auto;
+    }
+}

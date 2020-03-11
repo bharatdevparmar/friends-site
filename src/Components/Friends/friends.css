@@ -1,0 +1,96 @@
+.friendsSection {
+    margin-top: 20px;
+}
+
+.friends {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.friendsRow .column {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.ui.card.friends .friends-title {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.4s ease;
+}
+
+.ui.card.friends .friends-img {
+    height: 180px;
+    overflow: hidden;
+}
+
+.ui.card.friends .friends-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.ui.card.friends .friends-title .header {
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s ease;
+    text-align: center;
+    margin-top: 0;
+}
+
+.ui.card.friends:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.ui.card.friends:hover .friends-title {
+    height: 100%;
+    text-align: center;
+}
+
+/* Responsive CSS */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .friendsSection .ui.grid .row.friendsRow .column {
+        width: 33.33% !important;
+    }
+    .ui.grid>.row {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ui.grid>.row .column {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .friendsSection .ui.grid .row.friendsRow .column {
+        width: 33.33% !important;
+    }
+    .ui.grid>.row {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ui.grid>.row .column {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .friendsSection .ui.grid .row.friendsRow .column {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .friendsSection .ui.grid .row.friendsRow .column {
+        width: 100% !important;
+    }
+
+    .friendsSection .ui.grid .row.friendsRow .column .ui.card {
+        margin: 0 auto;
+    }
+}

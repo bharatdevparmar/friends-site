@@ -1,0 +1,162 @@
+{
+  "articles" : [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F Scott Fitzgerald",
+      "description": "The Great Gatsby is the American novel on this list that remains, after many readings, one of my all-time favourites, an unquiet masterpiece whose mystery never fails to exert its power. This is perhaps because, as Fitzgerald himself wrote, he is exploring the geography of regret. In a letter to a friend, he said: \"That's the whole burden of the novel – the loss of those illusions that give such colour to the world that you don't care whether things are true or false so long as they partake of the magical glory.",
+      "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/9/1/1409572720054/Leonardo-DiCaprio-in-The--011.jpg?width=620&quality=85&auto=format&fit=max&s=a52e11da62a31379879cfbbdd3979d78"
+    },
+    {
+      "id": "2",
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "description": "The novel, a roman à clef describing an anguished love affair between the expatriate American war veteran Jake Barnes and Lady Brett Ashley, a femme fatale representative in the writer’s mind of 1920s womanhood, is mostly located in Spain, Hemingway’s favourite country. For some critics, the heart of the novel is the bullfight, and how each character responds to the experience of the corrida. At the same time, the escape into the wild is a great American theme that recurs in the works of Hawthorne, Melville, and Twain (Nos 16, 17 and 23 in this series). In addition, The Sun Also Rises, like most novels of the 1920s, is a response to the author’s recent wartime service.",
+      "image": "https://i.guim.co.uk/img/static/sys-images/Arts/Arts_/Pictures/2014/9/12/1410543726319/Ernest-Hemingway-010.jpg?width=620&quality=85&auto=format&fit=max&s=75bf36fe9cd7df2ae0e72bcb48fa8fb2"
+    },
+    {
+      "id": "3",
+      "title": "Cold Comfort Farm",
+      "author": "Stella Gibbons",
+      "description": "Gibbons wrote Cold Comfort Farm while working for on the books pages of the Lady. Inspired, or perhaps provoked, by the fashion for novels set in remote rustic villages about sensitive young men with names like “Micah”, she set about demolishing a piece of treasured literary real estate whose origins can be traced to the late-Victorian novels of Thomas Hardy (No 29 in this series).",
+      "image": "https://images.pexels.com/photos/3614358/pexels-photo-3614358.jpeg"
+    },
+    {
+      "id": "4",
+      "title": "Tropic of Cancer",
+      "author": "Henry Miller",
+      "description": "In American literature, the renegade strand had found its richest expression in the genius Mark Twain, who went out of his way to oppose the “genteel tradition” of Emerson and Longfellow. By the 20th century, however, the renegade frontier was to be found not in the wild west, but in Paris. Miller, the down-and-out literary enragé, revelled in a new frontier of seedy desperation, where there were “prostitutes like wilted flowers and pissoirs filled with piss-soaked bread”. He and his muse Anaïs Nin flourished here – resolute, isolated and stoical in pursuit of their new aesthetic. Nin memorably recalled that, while her lover was mellow in his speech, there was always a small, round, hard photographic lens in his blue eyes",
+      "image": "https://images.pexels.com/photos/3785630/pexels-photo-3785630.jpeg"
+    },
+    {
+      "id": "5",
+      "title": "The Big Sleep",
+      "author": "Raymond Chandler",
+      "description": "Chandler, like PG Wodehouse, who will feature later in this series, had been educated at Dulwich College, a school founded by Edward Alleyn, the great actor-manager whose company, the Admiral’s Men, included the poet and playwright Christopher Marlowe, Shakespeare’s great rival. In Chandler’s stories, his protagonist also appears as “Mallory”. He is a 20th-century knight who treads the mean streets of Hollywood and Santa Monica, and who also visits the houses of the stinking rich, with their English butlers, corrosive secrets and sinister vices. Chandler plays with this medieval conceit in surreal metaphors. For instance: It was a blonde to make a bishop kick a hole in a stained-glass window.",
+      "image": "https://images.pexels.com/photos/459301/pexels-photo-459301.jpeg"
+    },
+    {
+      "id": "6",
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "description": "This is the “American book” Steinbeck always longed to write, a realist tour de force which exemplifies the quite primitive instincts that originally governed the Anglo-American novel, a cry of rage – mixing blue-collar bitterness, prairie folk wisdom and regular left-wing politics – from a best-selling writer inspired to pick up his pen by a deep sense of social injustice, in this case the dreadful conditions of immigrant farmhands in the American south-west. Steinbeck’s exposé of the social and economic horrors of farming life in the American dust bowl was a campaigning document by a writer with a conscience who had, as it happened, been born on a farm. The starkness of his narrative, and his sense of injustice, echoed the haunting photos of Dorothea Lange. Like her, he was not afraid to devote his art to the scandal of the Okies (Oklahoma migrants) who trekked to the fruit fields of the Golden State (California) in search of a better life, and suffered horribly in their search for a promised land.",
+      "image": "https://images.pexels.com/photos/3791592/pexels-photo-3791592.jpeg"
+    },
+    {
+      "id": "7",
+      "title": "All the King’s Men",
+      "author": "Robert Penn Warren",
+      "description": "The novel is narrated by Jack Burden, a political reporter who comes to work as the governor’s most trusted aide. The passage of Stark’s career is interwoven with Burden’s life story and philosophical reflections. As he says: “This has been the story of Willie Stark, but it is my story, too. It is the story of a man who lived in the world, and to him the world looked one way for a long time and then it looked another and very different way.",
+      "image": "https://i.guim.co.uk/img/static/sys-images/Music/Pix/pictures/2014/10/24/1414157091156/Henry-Miller-008.jpg?width=620&quality=85&auto=format&fit=max&s=1154bb7c78edc2f5193f6477e8597f58"
+    },
+    {
+      "id": "8",
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "description": "Lord of the Flies (whose title derives from one transcription of “Beelzebub”) is the work of an English teacher with a taste for big themes, and engages the reader at three levels. First, it’s a brilliantly observed study of adolescents untethered from rules and conventions. The main players – Ralph, Jack and Piggy – represent archetypes of English schoolboy, but Golding gets under their skin and makes them real. He knows how they tick, and draws on his own experience to explore the terrifying breakdown of their community.",
+      "image": "https://www.filmsite.org/moviescreens/rearwindow.jpg"
+    }
+  ],
+  "friends": [
+    {
+      "id": "1",
+      "name": "Linda P. Palafox",
+      "age": "62",
+      "address": "Maristuveien",
+      "contactNo": 43853028,
+      "email": "lindaPPalafox@armyspy.com",
+      "country": "USA",
+      "image": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Marcus Bakke",
+      "age": "27",
+      "address": "Maristuveien",
+      "contactNo": 42296312,
+      "email": "marcusBakke@dayrep.com",
+      "country": "Norway",
+      "image": "https://images.pexels.com/photos/374044/pexels-photo-374044.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Eugene H. Green",
+      "age": "21",
+      "address": "82 Pelican Road",
+      "contactNo": 362159551,
+      "email": "eugeneHGreen@jourrapide.com",
+      "country": "Australia",
+      "image": "https://images.pexels.com/photos/716411/pexels-photo-716411.jpeg"
+    },
+    {
+      "id": "4",
+      "name": "Mayrbek Sultanovich",
+      "age": "31",
+      "address": "Donnalbina, 89",
+      "contactNo": 3578092431,
+      "email": "MayrbekSultanovich@teleworm.us",
+      "country": "USA",
+      "image": "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Moss Joseph",
+      "age": "21",
+      "address": "Boston Villa",
+      "contactNo": 117894561230,
+      "email": "moss@gmail.com",
+      "country": "USA",
+      "image": "https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg"
+    },
+    {
+      "id": "6",
+      "name": "Maria Joseph",
+      "age": "25",
+      "address": "Parker Street",
+      "contactNo": 1894561230,
+      "email": "mariaJoseph@gmail.com",
+      "country": "USA",
+      "image": "https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg"
+    },
+    {
+      "id": "7",
+      "name": "Nasser Wafeeq Bata",
+      "age": "25",
+      "address": "144 Rue Rousseau",
+      "contactNo": 117894561230,
+      "email": "NasserWafeeqBata@teleworm.us",
+      "country": "Tunisia",
+      "image": "https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg"
+    },
+    {
+      "id": "8",
+      "name": "Ylonka Beekwilder",
+      "age": "20",
+      "address": "Morwowa 34",
+      "contactNo": 894561230,
+      "email": "YlonkaBeekwilder@rhyta.com",
+      "country": "Poland",
+      "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+    },
+    {
+      "id": "9",
+      "name": "Janna Offermans",
+      "age": "30",
+      "address": "Rua Rouxinol, 1271",
+      "contactNo": 8182003784,
+      "email": "JannaOffermans@dayrep.com",
+      "country": "Brazil",
+      "image": "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg"
+    },
+    {
+      "id": "10",
+      "name": "Abdirahman Hanna",
+      "age": "33",
+      "address": "Longhena, 142",
+      "contactNo": 3639465931,
+      "email": "AbdirahmanHanna@rhyta.com",
+      "country": "Italy",
+      "image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+    }
+  ]
+}

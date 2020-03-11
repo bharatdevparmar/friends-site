@@ -1,0 +1,41 @@
+header {
+    border-bottom:1px solid #dedede;
+    padding: 8px 0;
+}
+
+header .ui.grid>.row {
+    align-items: center;
+}
+
+header .ui.menu {
+    border: none;
+    box-shadow: none;
+    justify-content: flex-end;
+}
+
+.ui.menu .item {
+    font-size: 16px;
+}
+
+.ui.menu .item:last-child:before {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    header .ui[class*="two column"].grid>.row>.column {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .ui.menu {
+        justify-content: center;
+    }
+
+    header .ui .grid .row .column ~ .column {
+        padding-top: 0;
+    }
+}
+
+.title {
+    color: #2185d0
+}

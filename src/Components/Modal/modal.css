@@ -1,0 +1,19 @@
+.modalPersonalInfo .ui.table {
+    border: none;
+}
+
+.modalPersonalInfo .ui.celled.table tr td, .ui.celled.table tr th {
+    border: none;
+}
+
+.modalPersonalInfo.ui.modal .content .ui.image {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .modalPersonalInfo .ui.celled.table tr td, .ui.celled.table tr th {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
