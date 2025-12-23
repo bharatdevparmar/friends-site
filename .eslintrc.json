@@ -39,7 +39,7 @@
     "indent": ["error", 2, {"SwitchCase": 1, "MemberExpression": 1, "CallExpression": {"arguments": 1}, "FunctionDeclaration": {"body": 1, "parameters": 2}}],
     "key-spacing": ["error", {"beforeColon": false, "afterColon": true}],
     "keyword-spacing": ["error", {"before": true, "after": true}],
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": "off",
     "no-duplicate-imports": ["error"],
     "no-trailing-spaces": ["error"],
     "no-whitespace-before-property": ["error"],

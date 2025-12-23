@@ -2,8 +2,6 @@ import React, {useState, useEffect} from 'react';
 import {
   Grid,
   Image,
-  GridColumn,
-  GridRow,
   Card,
   Button,
   Container
@@ -18,7 +16,7 @@ const Home = (props) => {
   const [articles, setArticles] = useState([]);
   useEffect(() => {
     props.getArticles();
-  });
+  }, []);
 
   useEffect(() => {
     setArticles(props.articles);
@@ -34,10 +32,10 @@ const Home = (props) => {
     <div className="articleSection">
       <Container>
         <Grid>
-          <GridRow className="articleRow" columns={3}>
+          <Grid.Row className="articleRow" columns={3}>
             {
               articles && articles.map((innerObj, idx) => (
-                <GridColumn>
+                <Grid.Column key={innerObj.id || idx}>
                   <Card className="article">
                     <Image src={innerObj.image} wrapped ui={false} />
                     <Card.Content>
@@ -57,10 +55,10 @@ const Home = (props) => {
                       </Button>
                     </Card.Content>
                   </Card>
-                </GridColumn>
+                </Grid.Column>
               ))
             }
-          </GridRow>
+          </Grid.Row>
         </Grid>
       </Container>
     </div>

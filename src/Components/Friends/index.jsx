@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Card, Grid, Image, GridColumn, GridRow, Container} from 'semantic-ui-react';
+import {Card, Grid, Image, Container} from 'semantic-ui-react';
 import FriendsData from '../../data.json';
 import PersonalInfoModal from '../Modal/PersonalInfoModal';
 import './friends.css';
@@ -13,7 +13,7 @@ const Friends = (props) => {
   const [friends, setFriends] = useState([]);
   useEffect(() => {
     props.getFriends();
-  });
+  }, []);
 
   useEffect(() => {
     setFriends(props.friends);
@@ -28,20 +28,20 @@ const Friends = (props) => {
     <div className="friendsSection">
       <Container>
         <Grid>
-          <GridRow className="friendsRow" columns={6}>
+          <Grid.Row className="friendsRow" columns={6}>
             {
               friends.map((obj, idx) => (
-                <GridColumn onClick={() => toggleModal(idx)}>
+                <Grid.Column key={obj.id || idx} onClick={() => toggleModal(idx)}>
                   <Card className="friends">
                     <Image src={obj.image} wrapped ui={false} alt='Picture' className="friends-img"/>
                     <Card.Content className="friends-title">
                       <Card.Header>{obj.name}</Card.Header>
                     </Card.Content>
                   </Card>
-                </GridColumn>
+                </Grid.Column>
               ))
             }
-          </GridRow>
+          </Grid.Row>
         </Grid>
       </Container>
       <PersonalInfoModal

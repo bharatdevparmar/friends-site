@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
-import {Menu, Container, Grid, GridRow, GridColumn} from 'semantic-ui-react';
+import {Menu, Container, Grid} from 'semantic-ui-react';
 import './header.css';
 
 class Header extends Component {
@@ -17,11 +17,11 @@ class Header extends Component {
       <header>
         <Container>
           <Grid columns={2}>
-            <GridRow>
-              <GridColumn>
+            <Grid.Row>
+              <Grid.Column>
                 <h1 className='title'>Find Articles & Friends</h1>
-              </GridColumn>
-              <GridColumn>
+              </Grid.Column>
+              <Grid.Column>
                 <Menu>
                   <Menu.Item
                     name='home'
@@ -39,8 +39,8 @@ class Header extends Component {
                     <NavLink to='/friends'>Friends</NavLink>
                   </Menu.Item>
                 </Menu>
-              </GridColumn>
-            </GridRow>
+              </Grid.Column>
+            </Grid.Row>
           </Grid>
         </Container>
       </header>
