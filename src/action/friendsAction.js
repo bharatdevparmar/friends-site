@@ -1,5 +1,5 @@
 import {GET_FRIENDS} from './actionTypes';
-import * as data from '../data';
+import data from '../data.json';
 
 export const getFriends = () => {
   return {

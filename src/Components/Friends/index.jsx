@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Card, Grid, Image, GridColumn, GridRow, Container} from 'semantic-ui-react';
-import * as FriendsData from '../../data';
+import FriendsData from '../../data.json';
 import PersonalInfoModal from '../Modal/PersonalInfoModal';
 import './friends.css';
 import {getFriends} from '../../action/friendsAction';
